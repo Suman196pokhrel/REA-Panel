@@ -206,7 +206,7 @@ export const menu = [
     color: "teal",
     icon: "/revenueIcon.svg",
     title: "Total Revenue",
-    number: "$56.432",
+    number: "56.432",
     dataKey: "revenue",
     percentage: -12,
     chartData: [
@@ -308,6 +308,18 @@ export const menu = [
       },
     ],
   };
+
+  export const pieChartData = {
+    title:"Leads by Source",
+    dataKey:"value",
+    data : [
+      {name:"Mobile", value:400, color:"#0088FE"},
+      {name:"Desktop", value:300, color:"#00C49F"},
+      {name:"Laptop", value:300, color:"#FFBB28"},
+      {name:"Tablet", value:200, color:"#FF8042"},
+  
+    ]
+  }
   
   export const userRows = [
     {
