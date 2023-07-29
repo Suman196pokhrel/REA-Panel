@@ -40,7 +40,7 @@ const ChartBox = ({title, number, icon, chartData, dataKey, color,percentage }) 
                 </div>
 
                 <div className="texts">
-                    <div className="percentage" style={{color: percentage<0? "tomato":"limegreen"}}>{percentage}</div>
+                    <div className="percentage" style={{color: percentage<0? "tomato":"limegreen"}}>{percentage}%</div>
                     <div className="duration">this month</div>
                 </div>
             </div>

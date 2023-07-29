@@ -22,7 +22,7 @@ const DataTable = ({ slug ,columns, rows }) => {
     const actionColumn = {
         field: "action",
         headerName: "Action",
-        width: 200,
+        width: 160,
         renderCell: (params) => {
             return <div className="action">
                 <Link to={`/${slug}/${params.row.id}`}>
