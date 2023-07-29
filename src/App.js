@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer"
 import "./styles/global.scss"
 import Product from "./pages/product/Product"
 import User from "./pages/user/User"
+import Error from "./pages/err/Error";
 
 
 
@@ -39,28 +40,30 @@ function App() {
       children:[
         {
           path:"/",
-          element:<Home />
+          element:<Home />,
         },
         {
           path:"/users",
-          element:<Users />
+          element:<Users />,
         },
         {
           path:"/products",
-          element:<Products />
+          element:<Products />,
         }
         ,
         {
           path:"/users/:id",
-          element: <User />
+          element: <User />,
         }
         ,
         {
           path:"/products/:id",
-          element:<Product />
+          element:<Product />,
         }
         
-      ]
+      ],
+      errorElement:<Error />
+      
     }
   ])
 

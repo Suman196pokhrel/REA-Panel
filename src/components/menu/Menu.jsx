@@ -2,6 +2,7 @@ import React from 'react'
 import "./menu.scss"
 import { Link } from 'react-router-dom'
 import { menu } from "../../utils/data"
+import { Tooltip } from '@mui/material'
 
 const Menu = () => {
   return (
@@ -11,8 +12,11 @@ const Menu = () => {
           <span className="title">{item.title}</span>
           {item.listItems.map((lItems) => (
             <Link to={lItems.url} className='listItem' key={lItems.id}>
-              <img src={`/${lItems.icon}`} alt="logo for item" />
-              <span className="listItemTitle">{lItems.title}</span>
+              <Tooltip title={lItems.title}>
+                <img src={`/${lItems.icon}`} alt="logo for item" />
+                <span className="listItemTitle">{lItems.title}</span>
+              </Tooltip>
+
             </Link>
           ))}
 
