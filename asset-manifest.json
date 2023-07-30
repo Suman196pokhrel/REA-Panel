@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/REA-Panel/static/css/main.d9e3f6d8.css",
-    "main.js": "/REA-Panel/static/js/main.95efc85c.js",
+    "main.js": "/REA-Panel/static/js/main.00db52d6.js",
     "index.html": "/REA-Panel/index.html",
     "main.d9e3f6d8.css.map": "/REA-Panel/static/css/main.d9e3f6d8.css.map",
-    "main.95efc85c.js.map": "/REA-Panel/static/js/main.95efc85c.js.map"
+    "main.00db52d6.js.map": "/REA-Panel/static/js/main.00db52d6.js.map"
   },
   "entrypoints": [
     "static/css/main.d9e3f6d8.css",
-    "static/js/main.95efc85c.js"
+    "static/js/main.00db52d6.js"
   ]
 }
