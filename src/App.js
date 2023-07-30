@@ -35,7 +35,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/https://suman196pokhrel.github.io/react-admin-panel-02/",
+      path: "/",
       element: <Layout />,
       children:[
         {
