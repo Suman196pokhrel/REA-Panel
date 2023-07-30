@@ -39,25 +39,25 @@ function App() {
       element: <Layout />,
       children:[
         {
-          path:"/",
+          path:"",
           element:<Home />,
         },
         {
-          path:"/users",
+          path:"users",
           element:<Users />,
         },
         {
-          path:"/products",
+          path:"products",
           element:<Products />,
         }
         ,
         {
-          path:"/users/:id",
+          path:"users/:id",
           element: <User />,
         }
         ,
         {
-          path:"/products/:id",
+          path:"products/:id",
           element:<Product />,
         }
         
