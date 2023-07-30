@@ -25,8 +25,10 @@ const DataTable = ({ slug ,columns, rows }) => {
         width: 160,
         renderCell: (params) => {
             return <div className="action">
-                {console.log("Users page => ", `${slug}/${params.row.id}`)}
-                <Link to={`${slug}/${params.row.id}`}>
+                {/* {console.log("Users page => ", `${slug}/${params.row.id}`)} */}
+                {/* <Link to={`${slug}/${params.row.id}`}> */}
+                <Link to={`users/1`}>
+
                     <img src={`${process.env.PUBLIC_URL}/view.svg`} alt="view" />
                 </Link>
                 <div className="delete" onClick={()=> handleDelete(params.row.id)}>
