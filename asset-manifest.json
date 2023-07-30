@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://Suman196pokhrel.github.io/REA-Panel/static/css/main.d9e3f6d8.css",
-    "main.js": "https://Suman196pokhrel.github.io/REA-Panel/static/js/main.cd195c7b.js",
+    "main.js": "https://Suman196pokhrel.github.io/REA-Panel/static/js/main.c5d11102.js",
     "index.html": "https://Suman196pokhrel.github.io/REA-Panel/index.html",
     "main.d9e3f6d8.css.map": "https://Suman196pokhrel.github.io/REA-Panel/static/css/main.d9e3f6d8.css.map",
-    "main.cd195c7b.js.map": "https://Suman196pokhrel.github.io/REA-Panel/static/js/main.cd195c7b.js.map"
+    "main.c5d11102.js.map": "https://Suman196pokhrel.github.io/REA-Panel/static/js/main.c5d11102.js.map"
   },
   "entrypoints": [
     "static/css/main.d9e3f6d8.css",
-    "static/js/main.cd195c7b.js"
+    "static/js/main.c5d11102.js"
   ]
 }
