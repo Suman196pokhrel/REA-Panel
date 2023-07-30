@@ -9,7 +9,7 @@ const ChartBox = ({title, number, icon, chartData, dataKey, color,percentage }) 
 
             <div className="boxInfo">
                 <div className="title">
-                    <img src={icon} alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/${icon}`} alt="" />
                     <span>{title}</span>
                 </div>
                 <h1>${number}</h1>

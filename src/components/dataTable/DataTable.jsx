@@ -25,6 +25,7 @@ const DataTable = ({ slug ,columns, rows }) => {
         width: 160,
         renderCell: (params) => {
             return <div className="action">
+                {console.log("Users page => ", `${slug}/${params.row.id}`)}
                 <Link to={`${slug}/${params.row.id}`}>
                     <img src={`${process.env.PUBLIC_URL}/view.svg`} alt="view" />
                 </Link>
