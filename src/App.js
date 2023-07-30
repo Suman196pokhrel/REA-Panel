@@ -35,7 +35,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/REA-Panel",
       element: <Layout />,
       children:[
         {
