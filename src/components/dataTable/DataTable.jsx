@@ -26,7 +26,7 @@ const DataTable = ({ slug ,columns, rows }) => {
         renderCell: (params) => {
             return <div className="action">
                 {/* {console.log("Users page => ", `${slug}/${params.row.id}`)} */}
-                <Link to={`/${slug}/${params.row.id}`}>
+                <Link to={`/REA-Panel/${slug}/${params.row.id}`}>
                 {/* <Link to={`users/1`}> */}
 
                     <img src={`${process.env.PUBLIC_URL}/view.svg`} alt="view" />
