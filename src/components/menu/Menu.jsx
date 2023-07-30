@@ -13,7 +13,7 @@ const Menu = () => {
           {item.listItems.map((lItems) => (
             <Link to={lItems.url} className='listItem' key={lItems.id}>
               <Tooltip title={lItems.title}>
-                <img src={`/${lItems.icon}`} alt="logo for item" />
+                <img src={`${process.env.PUBLIC_URL}/${lItems.icon}`} alt="logo for item" />
                 <span className="listItemTitle">{lItems.title}</span>
               </Tooltip>
 
