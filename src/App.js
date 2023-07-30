@@ -52,12 +52,12 @@ function App() {
         }
         ,
         {
-          path:"users/:id",
+          path:"/REA-Panel/users/:id",
           element: <User />,
         }
         ,
         {
-          path:"products/:id",
+          path:"/REA-Panel/products/:id",
           element:<Product />,
         }
         
