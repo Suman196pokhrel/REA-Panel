@@ -25,7 +25,7 @@ const DataTable = ({ slug ,columns, rows }) => {
         width: 160,
         renderCell: (params) => {
             return <div className="action">
-                <Link to={`/${slug}/${params.row.id}`}>
+                <Link to={`/REA-Panel/${slug}/${params.row.id}`}>
                     <img src={`${process.env.PUBLIC_URL}/view.svg`} alt="view" />
                 </Link>
                 <div className="delete" onClick={()=> handleDelete(params.row.id)}>
